@@ -9,6 +9,8 @@ GPIO.setwarnings(False)
 GPIO.setup(pir_sensor,GPIO.IN)
 GPIO.setup(led_pin,GPIO.OUT)
 
+
+
 while(True):
     current_state = GPIO.input(pir_sensor)
     if current_state:
