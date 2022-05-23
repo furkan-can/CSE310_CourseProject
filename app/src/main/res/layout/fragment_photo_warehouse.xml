@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PhotoList"
+    android:orientation="vertical"
     android:background="#F7F9F9"
-    android:orientation="vertical">
+    tools:context=".view.PhotoWarehouseFragment">
 
 
     <TextView
@@ -26,6 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="12dp"
-        tools:listitem="@layout/photoitem"
+        tools:listitem="@layout/photo_item"
         />
+
+
 </LinearLayout>

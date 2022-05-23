@@ -26,6 +26,7 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
+                android:id="@+id/date_thief"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
@@ -35,6 +36,7 @@
 
 
             <TextView
+                android:id="@+id/time_thief"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
@@ -45,6 +47,7 @@
         </LinearLayout>
 
         <ImageView
+            android:id="@+id/image_thief"
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:src="@drawable/ic_launcher_background"

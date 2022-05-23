@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_thief"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.thiefdetector.view.HomeFragment"
+        android:label="Home Page"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_photoWarehouseFragment"
+            app:destination="@id/photoWarehouseFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_instantPhotoFragment"
+            app:destination="@id/instantPhotoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoWarehouseFragment"
+        android:name="com.example.thiefdetector.view.PhotoWarehouseFragment"
+        android:label="Detected Photos"
+        tools:layout="@layout/fragment_photo_warehouse" />
+    <fragment
+        android:id="@+id/instantPhotoFragment"
+        android:name="com.example.thiefdetector.view.InstantPhotoFragment"
+        android:label="Camera"
+        tools:layout="@layout/fragment_instant_photo" />
+</navigation>
