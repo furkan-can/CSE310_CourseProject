@@ -104,7 +104,7 @@ while(True):
         
         smtpUser = "thiefdetectorproject@gmail.com"
         smtpPass = "Raspberrypi.1"
-        toAdd = "furkancantavukcu98@gmail.com"
+        toAdd = "polathumeyraa@gmail.com"
         subject = "Furkan"
         body = "Motion Detected"
         
