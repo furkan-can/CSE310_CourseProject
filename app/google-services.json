@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "410282082199",
+    "firebase_url": "https://the-thief-detector-default-rtdb.firebaseio.com",
+    "project_id": "the-thief-detector",
+    "storage_bucket": "the-thief-detector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410282082199:android:61117c4e7c41c393c40ed2",
+        "android_client_info": {
+          "package_name": "com.example.thiefdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410282082199-5rlkvskad25blqet3itq1jtopjcfue0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSmlmMOQofzCEaoxyA0jTo6b445ziHA_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410282082199-5rlkvskad25blqet3itq1jtopjcfue0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

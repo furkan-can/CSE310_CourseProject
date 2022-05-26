@@ -8,16 +8,22 @@ import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation
 
+/**
+ * @author Hümeyra Polat
+ * @since 24.06.2022
+ */
+
 
 class HomeFragment : Fragment() {
 
+
     private lateinit var btn_warehouse: Button
-    private lateinit var btn_instant_photo: Button
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
     }
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -27,19 +33,19 @@ class HomeFragment : Fragment() {
             inflater.inflate(com.example.thiefdetector.R.layout.fragment_home, container, false)
 
         btn_warehouse = view.findViewById(com.example.thiefdetector.R.id.button_warehouse)
-        btn_instant_photo = view.findViewById(com.example.thiefdetector.R.id.button_instant)
         btn_warehouse.setOnClickListener {
             Navigation.findNavController(view)
                 .navigate(com.example.thiefdetector.R.id.action_homeFragment_to_photoWarehouseFragment)
         }
-        btn_instant_photo.setOnClickListener {
-            Navigation.findNavController(view)
-                .navigate(com.example.thiefdetector.R.id.action_homeFragment_to_instantPhotoFragment)
-        }
+
 
         // Inflate the layout for this fragment
         return view
     }
+
+
+
+
 
 
 }

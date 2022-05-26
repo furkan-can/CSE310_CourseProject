@@ -10,14 +10,18 @@ import com.example.thiefdetector.R
 import com.example.thiefdetector.model.Photos
 import com.squareup.picasso.Picasso
 
+/**
+ * @author Hümeyra Köseoğlu
+ * @since 24.06.2022
+ */
+
 class ThiefDetectorAdapter(private val photoList : ArrayList<Photos>):
     RecyclerView.Adapter<ThiefDetectorAdapter.ThiefDetectorHolder>() {
 
     class ThiefDetectorHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        val time_thieff : TextView = itemView.findViewById(R.id.time_thief)
-        val date_thieff : TextView = itemView.findViewById(R.id.date_thief)
-        val image_thieff : ImageView = itemView.findViewById(R.id.image_thief)
+        val time : TextView = itemView.findViewById(R.id.date_thief)
+        val imagePath : ImageView = itemView.findViewById(R.id.image_thief)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ThiefDetectorHolder {
@@ -29,9 +33,8 @@ class ThiefDetectorAdapter(private val photoList : ArrayList<Photos>):
     override fun onBindViewHolder(holder: ThiefDetectorHolder, position: Int) {
         val curr_photo = photoList[position]
 
-        holder.time_thieff.text = curr_photo.time
-        holder.date_thieff.text = curr_photo.date
-        Picasso.get().load(photoList[position].image).into(holder.image_thieff)
+        holder.time.text = curr_photo.time!!.split(".")[0]
+        Picasso.get().load(photoList[position].imagePath).into(holder.imagePath)
     }
 
     override fun getItemCount(): Int {
