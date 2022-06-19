@@ -16,6 +16,7 @@ In an environment where security measures are thought to be low, we thought that
 ![alt text](https://user-images.githubusercontent.com/79963893/174501772-f31a91b3-1005-479a-a413-36752089371f.png)
 
 **Deliverables**
+
 At the end of our project, a mobile application and a security system connected to a raspberry will be obtained.Technologies that will be used as follows:
 
 **Raspberry-Side** 
