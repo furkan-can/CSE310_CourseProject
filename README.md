@@ -1,8 +1,7 @@
 # Akdeniz University
-# CSE310
-# IoT Term Project
+# CSE310 - IoT Term Project
 
-# My Team
+**My Team**
 
 Furkan Can Tavukcu
 
