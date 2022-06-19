@@ -22,17 +22,26 @@ At the end of our project, a mobile application and a security system connected 
 **Raspberry-Side** 
 
 •Programming environment: Thonny
+
 •Main Programming Language: Python
+
 •Database: Firebase
+
 •Hardware: Raspberry-Pi2, Camera, Motion sensor
+
 •Libraries: GPIO 
+
 
 **Mobile Application-Side**
 
 •Programming environment: Android Studio
+
 •Main Programming Language: Kotlin
+
 •InterfaceLanguage : XML
+
 •Database: Firebase
+
 
 
 
