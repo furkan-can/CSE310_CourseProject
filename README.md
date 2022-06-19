@@ -4,13 +4,13 @@
 
 # My Team
 
-**Furkan Can Tavukcu 20180808081
+Furkan Can Tavukcu
 
-Hümeyra Polat 20180808042
+Hümeyra Polat
 
-İbrahim Masmanacı 20170808058
+İbrahim Masmanacı
 
-Hümeyra Köseoğlu 20180808015**
+Hümeyra Köseoğlu
 
 # The Thief Detector
 
