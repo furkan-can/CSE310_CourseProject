@@ -5,8 +5,6 @@
 
 Furkan Can Tavukcu
 
-Hümeyra Polat
-
 İbrahim Masmanacı
 
 Hümeyra Köseoğlu
